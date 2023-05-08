@@ -1,14 +1,14 @@
-#Fri Mar 31 01:01:21 MSK 2023
+#Mon May 08 16:27:48 MSK 2023
 path.4=14/classes.dex
 path.3=11/classes.dex
 path.2=10/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.4=D\:\\Project\\lab4-assignment-gate-a-skeleton\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.3=D\:\\Project\\lab4-assignment-gate-a-skeleton\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.2=D\:\\Project\\lab4-assignment-gate-a-skeleton\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
-base.1=D\:\\Project\\lab4-assignment-gate-a-skeleton\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=D\:\\Project\\lab4-assignment-gate-a-skeleton\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.4=D\:\\MyFirstApp\\lab4-assignment-gate-a-skeleton\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.3=D\:\\MyFirstApp\\lab4-assignment-gate-a-skeleton\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.2=D\:\\MyFirstApp\\lab4-assignment-gate-a-skeleton\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.1=D\:\\MyFirstApp\\lab4-assignment-gate-a-skeleton\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=D\:\\MyFirstApp\\lab4-assignment-gate-a-skeleton\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
