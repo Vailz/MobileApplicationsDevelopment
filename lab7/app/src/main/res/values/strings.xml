@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MultiScreenMainActivity</string>
+    <string name="can">Canari</string>
+    <string name="mal">Maldivi</string>
+    <string name="cur">Curili</string>
+    <string name="phil">Philippini</string>
+</resources>
