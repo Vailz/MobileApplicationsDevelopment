@@ -36,12 +36,12 @@ public class LogicUnitTests {
      * </p>
      * This entire class is re-created for each test method below. Therefore, 'setup'
      * operations such as these that need to be ran 'before' each test are in this method.
-    */
+     */
     @Before
     public void setup(){
         output = new TestingOutputInterface();
         mLogic = new Logic(output);
-        
+
         System.err.flush();
         System.out.flush();
         myOut = new ByteArrayOutputStream();
@@ -348,4 +348,3 @@ public class LogicUnitTests {
         mExpectedTotalOffices++;
     }
 }
-

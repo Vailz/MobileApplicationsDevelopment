@@ -15,7 +15,7 @@ public class BuildingList {
      * Array of offices.
      */
     private Office[] mOffice;
-	
+
     /**
      * Constructor initializes the fields.
      */
@@ -33,7 +33,7 @@ public class BuildingList {
         mHouse[7] = new House(10, 10, 12, 12);
         mHouse[8] = new House(10, 10, 12, 12);
         mHouse[8].setPool(true);
-		
+
         mOffice = new Office[6];
         mOffice[0] = new Office(20, 40, 56, 60);
         mOffice[1] = new Office(200, 400, 600, 560, "Bridgestone/Firestone", 100);
@@ -44,14 +44,14 @@ public class BuildingList {
         mOffice[4].setParkingSpaces(50);
         mOffice[5] = new Office(200, 100, 300, 200, "Nissan");
     }
-	
+
     /**
      * Return the array of houses.
      */
     public House[] getHouses() {
         return mHouse;
     }
-	
+
     /**
      * Return the array of offices.
      */

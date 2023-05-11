@@ -27,7 +27,7 @@ public class Logic
     private OutputInterface mOut;
 
     /**
-     * Constructor initializes the field.
+     * инициализируем поле вывода на экран
      */
     public Logic(OutputInterface out){
         mOut = out;
@@ -37,26 +37,32 @@ public class Logic
      * Perform the computation to print the houses and offices and the
      * total neighborhood area.
      */
+
+    // proces выполняет вычисления, необходимые для вывода информации об имеющихся домах и офисах, а также общей площади в районе.
     @Override
     public void process() {
-        // Get the list of all the buildings.
+        // Сначала создается новый объект BuildingList, который содержит все дома и офисы в районе
         final BuildingList list =
             new BuildingList();
 
-        // Get the list of houses.
+        // Создаем массив домов из BuildingList
         final House[] house =
             list.getHouses();
 
-        // Get the list of offices.
+        // Создаем массив офисов из BuildingList
         final Office[] office =
             list.getOffices();
 
-        Neighborhood.print(house, "Houses", mOut);
-        mOut.println("");
-        Neighborhood.print(office, "Offices", mOut);
+        //вызываем метод print() класса Neighborhood с аргументами house, "Дома" и mOut, что приводит к выводу информации о домах.
+        Neighborhood.print(house, "Дома", mOut);
+        mOut.println(""); // пустая строка между строками
+        //вызываем метод print() класса Neighborhood с аргументами house, "Офисы" и mOut, что приводит к выводу информации о офисах.
+        Neighborhood.print(office, "Офисы", mOut);
 
-        mOut.println("");
-        mOut.println("Total neighborhood area: " +
+        mOut.println(""); // пустая строка между строками
+
+        // общая площадь в районе, которая вычисляется как сумма площадей домов и офисов в районе.
+        mOut.println("Общая площадь в районе,: " +
                      (Neighborhood.calcArea(house) +
                       Neighborhood.calcArea(office)));
     }

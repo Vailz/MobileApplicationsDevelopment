@@ -10,6 +10,9 @@ package com.company.buildings.logic;
  * [MainActivity.java] to store an instance of [Logic.java] inside a
  * 'LogicInterface' variable (mLogic inside [MainActivity.java])
  */
+
+// определяет единственный метод process(), который класс Logic обязуется реализовать.
+// Метод process() в классе Logic выполняет вычисления для вывода информации о домах, офисах и общей площади района.
 public interface LogicInterface {
     /**
      * This method gets called (indirectly via [MainActivity.java])
